@@ -7,7 +7,7 @@ function renderNav() {
 
   mount.innerHTML = `
     <nav class="navbar">
-      <a class="brand" href="index.html">CodeAlpha Store</a>
+      <a class="brand" href="index.html">🛒 UrbanCart</a>
       <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="cart.html">Cart${count > 0 ? ` (${count})` : ''}</a>
